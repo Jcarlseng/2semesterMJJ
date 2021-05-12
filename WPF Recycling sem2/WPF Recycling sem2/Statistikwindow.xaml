@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_Recycling_sem2.Statistikwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Recycling_sem2"
+        mc:Ignorable="d"
+        Title="Statistikwindow" Height="1080" Width="1920">
+    <Grid Margin="0,0,-0.4,0.4">
+        <Button Content="Log af" HorizontalAlignment="Left" Margin="1536,932,0,0" VerticalAlignment="Top" Width="339" Height="90" Click="Button_Click" FontSize="22"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="971" Margin="293,51,0,0" VerticalAlignment="Top" Width="1204"/>
+        <Button Content="Affaldstype" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Width="262" Height="55" FontSize="28"/>
+        <Button Content="Virksomhed" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top" Width="262" Height="55" FontSize="28" Click="Button_Click_1"/>
+        <Button Content="Dato" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Width="262" Height="55" FontSize="28"/>
+        <Button Content="Head" HorizontalAlignment="Left" Margin="1613,791,0,0" VerticalAlignment="Top" Width="262" Height="55" FontSize="28"/>
+        <Button Content="Data" HorizontalAlignment="Left" Margin="1613,705,0,0" VerticalAlignment="Top" Width="262" Height="55" FontSize="28"/>
+
+    </Grid>
+</Window>
