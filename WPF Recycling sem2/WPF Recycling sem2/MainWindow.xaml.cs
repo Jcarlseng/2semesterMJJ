@@ -23,6 +23,7 @@ namespace WPF_Recycling_sem2
         public MainWindow()
         {
             InitializeComponent();
+            // TTTTEEEEESSSSSTTTTT
         }
     }
 }

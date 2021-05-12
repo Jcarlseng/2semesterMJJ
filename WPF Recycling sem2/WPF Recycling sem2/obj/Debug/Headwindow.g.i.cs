@@ -36,9 +36,9 @@ namespace WPF_Recycling_sem2 {
     
     
     /// <summary>
-    /// Window1
+    /// Headwindow
     /// </summary>
-    public partial class Window1 : System.Windows.Window, System.Windows.Markup.IComponentConnector {
+    public partial class Headwindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         private bool _contentLoaded;
         
